@@ -4,8 +4,8 @@ function showLoveMessage() {
     confessionDiv.classList.remove("hidden");
     confessionDiv.classList.add("show");
 
-    // Typewriter effect
-    let message = "Adunni, you are more beautiful than the stars, more radiant than the sun, and the most precious thing in my life. Every moment with you is magic. 💖 I love you endlessly, my queen. 👑";
+    // Typewriter effect for confession message
+    let message = "Adunni, you are the most beautiful soul I have ever known. You shine brighter than the stars, and every moment with you is magical. My love for you grows every day. 💖 I love you endlessly, my queen. 👑";
     loveMessage.innerHTML = "";
     
     let i = 0;
