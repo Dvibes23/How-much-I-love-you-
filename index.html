@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="question animate-text">Check how beautiful you are to Ola ❤️</h1>
-        <button onclick="showLoveMessage()">Check</button>
-        <div id="confession" class="hidden">
-            <h2>My Love Confession ❤️</h2>
-            <p id="love-message"></p>
+
+    <!-- Romantic Intro Popup -->
+    <div id="intro-popup" class="popup">
+        <div class="popup-content">
+            <h2>Made with Love ❤️</h2>
+            <p>This website was designed and developed by <b>Olasupo Oyindamola</b> for the love of his life, <b>Adunni</b>, the most beautiful girl in the world. 💖</p>
+            <button onclick="closePopup()">Continue</button>
         </div>
     </div>
 
-    <!-- Floating Hearts -->
-    <div id="hearts-container"></div>
+    <!-- Main Container -->
+    <div id="main-content" class="hidden">
+        <div class="container">
+            <h1 class="question animate-text">Check how beautiful you are to Ola ❤️</h1>
+            <button onclick="showLoveMessage()">Check</button>
+            <div id="confession" class="hidden">
+                <h2>My Love Confession ❤️</h2>
+                <p id="love-message"></p>
+            </div>
+        </div>
+
+        <!-- Floating Hearts -->
+        <div id="hearts-container"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
