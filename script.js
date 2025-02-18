@@ -1,3 +1,8 @@
+// Function to close the popup and show the main content
+function closePopup() {
+    document.getElementById("intro-popup").style.display = "none";
+    document.getElementById("main-content").classList.remove("hidden");
+}
 // List of 30 different love messages
 const loveMessages = [
     // First 10 messages (kept from previous version)
