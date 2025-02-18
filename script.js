@@ -1,5 +1,6 @@
-// List of 10+ different love messages
+// List of 30 different love messages
 const loveMessages = [
+    // First 10 messages (kept from previous version)
     "Adunni, you are my sunshine on the cloudiest days. Your smile lights up my world. ☀️",
     "Every heartbeat of mine whispers your name. You are my love, my life, my everything. ❤️",
     "Your love is like magic, making every ordinary moment extraordinary. ✨",
@@ -10,9 +11,32 @@ const loveMessages = [
     "Your beauty isn’t just in your looks, but in your kind and loving heart. 💕",
     "My love for you is like the stars, shining bright even in the darkest nights. ✨",
     "No poem or song could ever describe how much I love and adore you, my queen. 👑",
-    "Your love fills my soul with joy, and your presence makes my world complete. 🌎",
-    "You are the missing piece that completes my heart. Forever and always, I am yours. 💘",
-    "No matter how many lifetimes, I will always find and love you, my soulmate. 🌹",
+    
+    // 20 new messages focusing on her beauty and your deep love for her
+    "Adunni, your beauty is more breathtaking than the most stunning sunset. 🌅",
+    "Every time I see you, my heart whispers – 'there goes the most beautiful woman in the world.' 💕",
+    "Your beauty is like the moonlight, shining softly yet powerfully in my life. 🌙",
+    "If beauty had a face, it would be yours. You are the definition of perfection. 💗",
+    "No diamond in the world can shine as brightly as your eyes when you smile. 💎",
+    "Your beauty is endless, like the ocean – deep, mesmerizing, and full of wonder. 🌊",
+    "You are more beautiful than the most exquisite flower in the garden of my heart. 🌸",
+    "Your face is like poetry, every curve a verse, and every smile a masterpiece. 🎨",
+    "The stars envy you because you shine brighter than all of them combined. ✨",
+    "Your beauty is not just in your looks, but in the way you love, care, and make my world complete. 💞",
+    "Looking at you is like gazing at a dream – too beautiful to be real. 💖",
+    "Every time I blink, I miss a second of your beauty. That’s why I want to stare forever. 👀❤️",
+    "Your presence makes even the dullest day feel full of light and happiness. ☀️",
+    "Your face is my favorite sight, your voice my favorite sound, and your love my favorite feeling. 💓",
+    "God took His time making you, because you are beyond perfect. 😍",
+    "The way your eyes sparkle makes my world glow with happiness. ✨",
+    "Even angels stop to admire how beautifully you were created. 👼💕",
+    "No artist could ever paint a picture as beautiful as you. You are a masterpiece. 🎨❤️",
+    "Your beauty is like a melody that plays in my heart over and over again. 🎶💖",
+    "Your elegance, your smile, your kindness—everything about you is simply perfect. 💕",
+    "Seeing your face is like witnessing the first light of dawn—pure, beautiful, and magical. 🌅💞",
+    "Your beauty isn’t just in your appearance, but in your soul, your heart, and your love. 💗",
+    "Even the most beautiful roses fade, but you remain timeless, my queen. 🌹",
+    "No matter how many lifetimes, I will always find and love you, my most beautiful one. 💫",
 ];
 
 // Function to generate a random love message
