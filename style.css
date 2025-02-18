@@ -1,5 +1,12 @@
+/* Pink Animated Background */
+@keyframes pinkGradient {
+    0% { background: #ffafbd; }
+    50% { background: #ffc3a0; }
+    100% { background: #ffafbd; }
+}
+
 body {
-    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    animation: pinkGradient 5s infinite alternate ease-in-out;
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: white;
@@ -12,6 +19,7 @@ body {
     overflow: hidden;
 }
 
+/* Container Design */
 .container {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
